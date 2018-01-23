@@ -26,6 +26,8 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "node-sass": "^4.7.1"
+    "node-sass": "^4.7.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
   }
 }
