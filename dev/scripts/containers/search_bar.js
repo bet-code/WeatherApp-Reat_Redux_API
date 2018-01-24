@@ -14,7 +14,6 @@ class SearchBar extends Component {
     }
 
     onInputChange(e) {
-        console.log(e.target.value);
         this.setState({ term: e.target.value })
     }
 
@@ -30,7 +29,7 @@ class SearchBar extends Component {
             <form className="search-bar" onSubmit={this.onFormSubmit} >
                 <input 
                     type="text"
-                    placeholder="Get a five day forecast in your favourite cities "
+                    placeholder="Enter city"
                     value={this.state.term}
                     onChange={this.onInputChange}
                 />
