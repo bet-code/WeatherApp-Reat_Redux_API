@@ -29,7 +29,7 @@ class SearchBar extends Component {
             <form className="input-group" onSubmit={this.onFormSubmit} >
                 <input 
                     type="text"
-                    placeholder="Enter a Canadian city to see 5 day weather forecast"
+                    placeholder="Enter a Canadian city"
                     className="form-control"
                     value={this.state.term}
                     onChange={this.onInputChange}
